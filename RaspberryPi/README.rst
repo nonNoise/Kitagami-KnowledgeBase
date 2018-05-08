@@ -96,15 +96,21 @@ SDカードを書込んだ後、どのように使うかによってセットア
 
 大よそ、以下のような使い方が見受けられます。
 
-- HDMIに画面出力して使用する方法
+HDMIに画面出力して使用する方法
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    https://github.com/nonNoise/RaspberryPi_SetupMethod_V2018/blob/master/01.rst
+    https://github.com/nonNoise/Kitagami-KnowledgeBase/blob/master/RaspberryPi/01.rst
 
-- HDMIもWiFiも使わずシリアル通信よりアクセスする方法
 
-    https://github.com/nonNoise/RaspberryPi_SetupMethod_V2018/blob/master/02.rst
+HDMIもWiFiも使わずシリアル通信よりアクセスする方法
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- HDMIに画面出力せず、SSHでWiFiよりVPN(もしくはターミナル)でアクセスする
+    https://github.com/nonNoise/Kitagami-KnowledgeBase/blob/master/RaspberryPi/02.rst
 
-- [RaspberryPi Zero限定]　USB-OTGを用いてPCよりアクセスする
+
+HDMIに画面出力せず、SSHでWiFiよりVPN(もしくはターミナル)でアクセスする
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[RaspberryPi Zero限定]　USB-OTGを用いてPCよりアクセスする
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
