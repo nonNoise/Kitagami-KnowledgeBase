@@ -1,0 +1,93 @@
+=========================================================================================
+HDMIもWiFiも使わずシリアル通信よりアクセスする方法
+=========================================================================================
+
+
+■　本資料で対応するRaspberryPi
+--------------------------------------------------------------------
+
+-   Raspberry Pi A+
+
+-   Raspberry Pi B+
+
+-   Raspberry Pi 2B
+
+-   Raspberry Pi 3B
+
+-   Raspberry Pi Zero
+
+-   Raspberry Pi Zero W
+
+-   Raspberry Pi Zero WH
+
+
+
+::
+    
+    Raspbian Stretch with desktop
+    Image with desktop based on Debian Stretch
+    Version: November 2017
+    Release date: 2017-11-29
+    Kernel version: 4.9
+    Release notes: Link
+
+
+■ その他、必要な具材
+------------------------------------------------------------------------------
+
+-   USBシリアル変換モジュール 
+    
+    http://akizukidenshi.com/catalog/g/gM-11007/
+
+-   ブレッドボード・ジャンパーワイヤ（オス－メス)
+
+    http://akizukidenshi.com/catalog/g/gC-08935/
+
+
+■ セットアップ方法
+------------------------------------------------------------------------------
+
+-   OSが書き込まれたSDを一旦、PCに接続します。
+
+※この時、ドライブエラーですフォーマットしてくださいと表示されますが、Linuxで扱う際は問題ない形式ですので気にせずにキャンセルをクリックしてください。
+
+-   bootというドライバが表示され、その中のconfig.txtを編集します。
+
+    dtoverlay=pi3-miniuart-bt　
+
+    をファイルの最後に記述します。
+
+-   続いて、cmdline.txtを編集します。
+
+    以下の文を張り付けます。
+
+    変更前 : 
+    
+    ::
+    
+        dwc_otg.lpm_enable=0 console=serial0,115200 console=tty1 root=PARTUUID=3f744051-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait quiet splash plymouth.ignore-serial-consoles
+
+    変更後 : 
+    
+    ::
+    
+        dwc_otg.lpm_enable=0 console=tty1 console=serial0,115200 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+    
+    全文書き換えます。順番や文脈に意味がありますので下手に触ると起動しません。
+
+-   SDカードをPCから取り外し、RaspberryPiに取り付けます。
+
+-   USBシリアル変換ケーブルより GND,TXD,RXDにジャンパーワイヤのオス側を接続します。
+
+-   RaspberryPiのGND端子(6pin)とTXD端子(8pin)とRXD端子(10pin)にジャンパーワイヤを接続します。
+
+-   この際、GND-GND ですが、　TXD-RXD , RXD-TXD とクロスして結線を行います。
+
+-   USBシリアル変換モジュールにUSBケーブルを接続します。
+
+-   WindowsですとTeratermでCOMポートへ接続します。速度は115200bps
+
+-   MacOSですとターミナルコマンドと表示し、 screen /dev/tty.usbserial 115200　にて接続します。
+
+-   最後に、RaspberryPiの電源を入れます。起動時のステータスが表示されてloginが表示さればＯＫ
+
