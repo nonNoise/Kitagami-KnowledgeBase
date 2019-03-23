@@ -1,0 +1,39 @@
+==============================================================
+USBの規格で認められた　Type-C 変換アダプタについて
+==============================================================
+
+● TypeC to Type-B ケーブル
+
+.. image:: ./img/TypeCtoTypeB.png
+    :width: 480px
+
+● TypeC to Type-B(Mini-B) ケーブル
+
+.. image:: ./img/TypeCtoTypeMiniB.png
+    :width: 480px
+
+● TypeC to Type-B(Micro-B) ケーブル
+
+.. image:: ./img/TypeCtoMicroB.png
+    :width: 480px
+
+
+● TypeC to Type-B(Micro-B USB 3.0) ケーブル
+
+.. image:: ./img/TypeCtoMicroB31.png
+    :width: 480px
+
+● TypeC to Type-A アダプタ
+
+.. image:: ./img/TypeCtoTypeASocket.png
+    :width: 480px
+
+● TypeC to Micro-B アダプタ
+
+.. image:: ./img/TypeCtoMicroBSocket.png
+    :width: 480px
+
+● TypeC to 3.5mmAudioJack　（対応した機種ある？）
+
+.. image:: ./img/TypeCtoAudio.png
+    :width: 480px
