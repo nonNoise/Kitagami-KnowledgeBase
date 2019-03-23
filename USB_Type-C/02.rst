@@ -37,6 +37,9 @@ USB2.0スレーブ機器を開発するときのノウハウ
 
 ● ヒロセ電機　Type-C コネクタ　CX70M-24P1
 
+.. image:: ./img/Hirose.png
+    :width: 480px
+
 http://akizukidenshi.com/catalog/g/gC-13235/
 
 USB2.0と3.1のフル対応した24ピン端子
@@ -52,6 +55,9 @@ USB2.0のみに対応した16ピン端子
 販売店見当たらず。安かったら欲しい。
 
 ● Korean Hroparts Elec TYPE-C-31-M-12
+
+.. image:: ./img/TYPE-C-31-M-12.png
+    :width: 480px
 
 https://lcsc.com/product-detail/USB-Type-C_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html
 
