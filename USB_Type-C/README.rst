@@ -24,6 +24,34 @@ USB Type-Cは、USB Gen3.1から規格化されたっぽい。
 USB Type-Cから、USB PDという規格があり、5V以外の電圧を出力することが可能。
 
 
+■ 規格資料
+------------------------------------------------------------------------
+
+● usb.org規格書　検索
+
+https://www.usb.org/documents?search=&tid_2%5B%5D=41&items_per_page=50
+
+● Universal Serial Bus Type-C Cable and Connector Specification
+
+  Release 1.3 July 14, 2017
+
+https://www.usb.org/document-library/usb-type-ctm-cable-and-connector-specification-revision-13-july-14-2017-and-ecns
+
+
+● USB Type-C Specification Release 1.3.pdf
+
+https://github.com/nonNoise/Kitagami-KnowledgeBase/blob/master/USB_Type-C/USB%20Type-C%20Specification%20Release%201.3.pdf
+
+■ 調査内容
+------------------------------------------------------------------------
+
+☆ USBの規格で認められた　Type-C 変換アダプタについて
+
+https://github.com/nonNoise/Kitagami-KnowledgeBase/blob/master/USB_Type-C/01.rst
+
+☆ USB2.0スレーブ機器を開発するときのノウハウ
+
+https://github.com/nonNoise/Kitagami-KnowledgeBase/blob/master/USB_Type-C/02.rst
 
 
 ■ セットアップ
