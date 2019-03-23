@@ -72,7 +72,7 @@ CCについては以下の項目で記述するが、USB 2.0スレーブとし�
 
 CC端子は、Type-Cがホスト（Source、DFP : Downstream Facing Port）なのかスレーブ(Sink,UFP : Upstream Facing Port )なのかを検知したりします。
 
-USB 2.0スレーブとして動かすには、このCC端子に** 5.1kΩ±20％ **をGNDに対してプルダウンすれば良いという事になる。
+USB 2.0スレーブとして動かすには、このCC端子【 5.1kΩ±20％ 】をGNDに対してプルダウンすれば良いという事になる。
 
 .. image:: ./img/TypeCtoCC.png
     :width: 480px
