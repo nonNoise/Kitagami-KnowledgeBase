@@ -54,11 +54,11 @@ http://ww1.microchip.com/downloads/jp/AppNotes/00001914B_JP.pdf
 ■ 調査内容
 ------------------------------------------------------------------------
 
-☆ USBの規格で認められた　Type-C 変換アダプタについて
+'☆ USBの規格で認められた　Type-C 変換アダプタについて <https://github.com/nonNoise/Kitagami-KnowledgeBase/blob/master/USB_Type-C/01.rst>'_
 
-https://github.com/nonNoise/Kitagami-KnowledgeBase/blob/master/USB_Type-C/01.rst
 
-`☆ USB2.0スレーブ機器を開発するときのノウハウ <https://github.com/nonNoise/Kitagami-KnowledgeBase/blob/master/USB_Type-C/02.rst>`_
+
+'☆ USB2.0スレーブ機器を開発するときのノウハウ <https://github.com/nonNoise/Kitagami-KnowledgeBase/blob/master/USB_Type-C/02.rst>'_
 
 
 ■ 参考資料
