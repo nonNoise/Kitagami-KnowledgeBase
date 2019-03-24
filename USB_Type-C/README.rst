@@ -24,23 +24,6 @@ USB Type-Cは、USB Gen3.1から規格化されたっぽい。
 USB Type-Cから、USB PDという規格があり、5V以外の電圧を出力することが可能。
 
 
-■ 規格資料
-------------------------------------------------------------------------
-
-`● usb.org規格書　検索 <https://www.usb.org/documents?search=&tid_2%5B%5D=41&items_per_page=50>`_
-
-`● Universal Serial Bus Type-C Cable and Connector Specification
-
-  Release 1.3 July 14, 2017 <https://www.usb.org/document-library/usb-type-ctm-cable-and-connector-specification-revision-13-july-14-2017-and-ecns>`_
-
-
-`● USB Type-C Specification Release 1.3.pdf <https://github.com/nonNoise/Kitagami-KnowledgeBase/blob/master/USB_Type-C/USB%20Type-C%20Specification%20Release%201.3.pdf>`_
-
-
-`● Microchip AN1953 USB Type-C™ の概要 <http://ww1.microchip.com/downloads/jp/AppNotes/00001953A_JP.pdf>`_
-
-`● Microchip AN1914 基本的な USB Type-C™ UFP (Upstream Facing Port) の実装 <http://ww1.microchip.com/downloads/jp/AppNotes/00001914B_JP.pdf>`_
-
 ■ 調査内容
 ------------------------------------------------------------------------
 
@@ -53,6 +36,22 @@ USB Type-Cから、USB PDという規格があり、5V以外の電圧を出力�
 
 ■ 参考資料
 ------------------------------------------------------------------------
+
+`● usb.org規格書　検索 <https://www.usb.org/documents?search=&tid_2%5B%5D=41&items_per_page=50>`_
+
+`● Universal Serial Bus Type-C Cable and Connector Specification <https://www.usb.org/document-library/usb-type-ctm-cable-and-connector-specification-revision-13-july-14-2017-and-ecns>`_
+
+  Release 1.3 July 14, 2017 
+
+`● USB Type-C Specification Release 1.3.pdf <https://github.com/nonNoise/Kitagami-KnowledgeBase/blob/master/USB_Type-C/USB%20Type-C%20Specification%20Release%201.3.pdf>`_
+
+
+`● Microchip AN1953 USB Type-C™ の概要 <http://ww1.microchip.com/downloads/jp/AppNotes/00001953A_JP.pdf>`_
+
+`● Microchip AN1914 基本的な USB Type-C™ UFP (Upstream Facing Port) の実装 <http://ww1.microchip.com/downloads/jp/AppNotes/00001914B_JP.pdf>`_
+
+
+
 
 
 ::
