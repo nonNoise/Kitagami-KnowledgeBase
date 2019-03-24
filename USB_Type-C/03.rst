@@ -8,9 +8,13 @@
 
 ● Type-C 電圧電流チェッカー
 
+.. image:: http://www.route-r.co.jp/goods_img/RT-TC3VABK_B600a.jpg
+
 `RT-TC3VABK <http://akizukidenshi.com/catalog/g/gM-13974/>`_
 
 ● USB-PD対応ACアダプタ 
+
+.. image:: https://www.sengoku.co.jp/item/images/th70/RP-PC017_01.jpg
 
 `RAVPower　RP-PC017(Black) <https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-5CHW>`_
 
