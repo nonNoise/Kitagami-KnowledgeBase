@@ -42,6 +42,15 @@ https://www.usb.org/document-library/usb-type-ctm-cable-and-connector-specificat
 
 https://github.com/nonNoise/Kitagami-KnowledgeBase/blob/master/USB_Type-C/USB%20Type-C%20Specification%20Release%201.3.pdf
 
+
+● Microchip AN1953 USB Type-C™ の概要
+
+http://ww1.microchip.com/downloads/jp/AppNotes/00001953A_JP.pdf
+
+● Microchip AN1914 基本的な USB Type-C™ UFP (Upstream Facing Port) の実装
+
+http://ww1.microchip.com/downloads/jp/AppNotes/00001914B_JP.pdf
+
 ■ 調査内容
 ------------------------------------------------------------------------
 
@@ -49,13 +58,7 @@ https://github.com/nonNoise/Kitagami-KnowledgeBase/blob/master/USB_Type-C/USB%20
 
 https://github.com/nonNoise/Kitagami-KnowledgeBase/blob/master/USB_Type-C/01.rst
 
-☆ USB2.0スレーブ機器を開発するときのノウハウ
-
-https://github.com/nonNoise/Kitagami-KnowledgeBase/blob/master/USB_Type-C/02.rst
-
-
-■ セットアップ
-------------------------------------------------------------------------
+`☆ USB2.0スレーブ機器を開発するときのノウハウ.. _`https://github.com/nonNoise/Kitagami-KnowledgeBase/blob/master/USB_Type-C/02.rst
 
 
 ■ 参考資料
