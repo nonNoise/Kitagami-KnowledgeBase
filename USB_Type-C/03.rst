@@ -1,0 +1,22 @@
+==============================================================
+実際にType-CでUSB2.0スレーブ機器を開発してみる
+==============================================================
+
+
+■ 実験で使用した機器
+---------------------------------------------------------------
+
+● Type-C 電圧電流チェッカー
+
+`RT-TC3VABK <http://akizukidenshi.com/catalog/g/gM-13974/>`_
+
+● USB-PD対応ACアダプタ 
+
+`RAVPower　RP-PC017(Black) <https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-5CHW>`_
+
+● ASMedia社製 ASM2142搭載 USB3.1 Type-C x2 インターフェース(PCI-Express x4接続)
+
+.. image:: https://www.kuroutoshikou.com/uploads/sites/3/product/20010/usb31cp2pcie.jpg
+
+`USB3.1C-P2-PCIE <https://www.kuroutoshikou.com/product/interface/usb/usb3_1c-p2-pcie/>`_
+
